@@ -1,0 +1,1 @@
+write a program which will find all such number between 1000 and 3000(both included)such that each digit of the number. the numbers obtained should be printed in a comma-separated sequence on a single time

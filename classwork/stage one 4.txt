@@ -1,0 +1,24 @@
+        stage one
+1. ask user for inputs 
+2.collect inputs 
+3. display result
+
+	Stage two
+1. prompt user to enter account number
+2. collect input 
+3. store input as "Account number"
+4. prompt user to enter balance at the beginning of the month
+5. collect input
+6. store input as "Beginning balance"
+7. prompt user to enter total of all items charged by the customer this month
+8. collect input
+9. store input as "total of items"
+10. prompt user to enter total of credits applied to the customer account this month.
+11. collect input
+12. store input as "Total of credits"
+13. prompt user to enter allow credit limit
+14. collect input
+15. store input as "credit limit"
+16. calculate new balance( beginning balance + charges - credits)
+17. collect result
+18. store result as "New balance"

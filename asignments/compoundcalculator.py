@@ -1,6 +1,6 @@
 import math
 while (True):
-	investment = float(input("Enter initial investment: "))
+	investment = string(input("Enter initial investment: "))
 	if investment <= 0:
 		print("Invalid Input \nKindly enter again ")
 	else:

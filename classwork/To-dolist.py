@@ -28,28 +28,36 @@ while True:
 		print("invalid choice. pls try again.")
 
 
-       		
+def view_tasks():
+	if no tasks:
+		return("No tasks available.")
+	else:
+		for index, tasks in enumerate(tasks, start=1):
+			result = if tasks['compelete']
+				return ['x']
+	else: 
+			return []
+	
+
+def mark_complete():
+	if task < 0 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
-    def view_tasks(task):
-        if not tasks:
-            print("No tasks available.")
-        else:
-            for index, task in enumerate(task, start=1):
-                 = "[X]" if task['completed'] else "[ ]"
-                print(f"{index}. {status} {task['task']}")
-    
-    def mark_complete(task_index):
-        if 0 < task_index <= len(self.tasks):
-            tasks[task_index - 1]['completed'] = True
-            print("Task marked as complete!")
-        else:
-            print("Invalid task number.")
-    
-    def delete_task(task_index):
-        if 0 < task_index <= len(self.tasks):
-            tasks[task_index - 1]
-            print("Task deleted successfully!")
-        else:
-            print("Invalid task number.")
-    
+       
 

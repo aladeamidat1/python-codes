@@ -1,6 +1,6 @@
 import math
 while (True):
-	investment = string(input("Enter initial investment: "))
+	investment = int(input("Enter initial investment: "))
 	if investment <= 0:
 		print("Invalid Input \nKindly enter again ")
 	else:
@@ -26,6 +26,7 @@ quarterly = 4
 monthly = 12
 daily = 365
 
+
 duration = """
 
 Select Compound Frequency
@@ -36,6 +37,7 @@ Select Compound Frequency
 5. Daily
 
 """
+
 compound_frequency = int(input(duration))
 
 rate = estimatedInterest / 100
